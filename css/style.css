@@ -1,0 +1,113 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #332b37;
+}
+.Top1{
+    width: 100%;
+    background-color: #8700e1;
+    align-items: center;
+    height: 253px;
+    margin: 0px;
+    box-shadow: 0px 5px 51px 11px rgba(170, 87, 255, 0.41);
+}
+.Top2{
+    width: auto;
+    margin: 0px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.Logo{
+    align-items: center;
+    width: auto;
+    margin-right: 10px;
+}
+.Links ul li{
+    margin-left: 5px;
+    
+    list-style: none;
+    float: left;
+}
+.Links{
+    margin-left: 10px;
+}
+.Center{
+    width: 100%;
+    align-items: center;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+#btnDownload{
+    border-radius: 20px 20px 20px 20px;
+    width: 400px;
+    height: 150px;
+    -webkit-transition-duration: 0.3s;
+    filter: drop-shadow(0px 0px 12px #4D0E80);
+    transition-property: transform;
+    font-size: 50px;
+    background-color: #5a247d;
+    border: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 3px #FFFFFF;
+}
+#btnDownload:hover, #btnDownload:focus, #btnDownload:active{
+  filter: drop-shadow(0px 0px 25px #4D0E80);
+  text-shadow: 0px 0px 5px #FFFFFF;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+#H1Logo{
+    font-family: Arial,sans-serif;
+    font-style: inherit;
+    font-weight: bold;
+    font-size: 80px;
+    color: #FFFFFF;
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+#discordIcon{
+    width:50px;
+    height:50px;
+    -webkit-transition-duration: 0.1s;
+    filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.35));
+}
+#youtubeIcon{
+    width:50px;
+    height:50px;
+    -webkit-transition-duration: 0.1s;
+    filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.35));
+}
+#githubIcon{
+    width:50px;
+    height:50px;
+    -webkit-transition-duration: 0.1s;
+    filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.35));
+}
+#discordIcon:hover, #discordIcon:focus, #discordIcon:active{
+    filter: drop-shadow(0px 0px 25px #4D0E80);
+    text-shadow: 0px 0px 5px #FFFFFF;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#youtubeIcon:hover, #youtubeIcon:focus, #youtubeIcon:active{
+    filter: drop-shadow(0px 0px 25px #4D0E80);
+    text-shadow: 0px 0px 5px #FFFFFF;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#githubIcon:hover, #githubIcon:focus, #githubIcon:active{
+    filter: drop-shadow(0px 0px 25px #4D0E80);
+    text-shadow: 0px 0px 5px #FFFFFF;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#h2BtnDownload{
+    font-family: Arial,sans-serif;
+    font-style: inherit;
+    font-weight: bold;
+    font-size: 50px;
+    color: #FFFFFF;
+}
