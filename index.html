@@ -39,8 +39,14 @@
         <h2 id="h2BtnDownload">Começe a utilizar o programa:</h2>
     </div>
     <div class="Download-2">
-        <button id="btnDownload">Download</button>
+        <button id="btnDownload" onclick="Download()">Download</button>
     </div>
+    <script>
+        function Download() {
+        window.open("https://github.com/Kockiee/KockieOptimizerSite/archive/refs/heads/main.zip", "_blank")
+        window.location.href = "successfulDownload.html"
+        }
+    </script>
 </body>
 </html>
 <!DOCTYPE html>
