@@ -43,8 +43,12 @@
     </div>
     <script>
         function Download() {
-        window.open("https://github.com/Kockiee/KockieOptimizerSite/archive/refs/heads/main.zip", "_blank")
-        window.location.href = "successfulDownload.html"
+            window.open("https://github.com/Kockiee/KockieOptimizerSite/archive/refs/heads/main.zip", "_blank")
+            window.location.href = "successfulDownload.html"
+            var backpagint = setTimeout(function() {
+                history.back();
+            }5000);
+            clearInterval(backpagint);
         }
     </script>
 </body>
