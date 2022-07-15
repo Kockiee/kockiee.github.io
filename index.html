@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kockie Optimizer</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
     <Header class="Top1">
@@ -39,18 +40,8 @@
         <h2 id="h2BtnDownload">Começe a utilizar o programa:</h2>
     </div>
     <div class="Download-2">
-        <button id="btnDownload" onclick="Download()">Download</button>
+        <button id="btnDownload" onclick="Download()">Download .zip</button>
     </div>
-    <script>
-        function Download() {
-            window.open("https://github.com/Kockiee/KockieOptimizerSite/archive/refs/heads/main.zip", "_blank")
-            window.location.href = "successfulDownload.html"
-            var backpagint = setTimeout(function() {
-                history.back();
-            }5000);
-            clearInterval(backpagint);
-        }
-    </script>
 </body>
 </html>
 <!DOCTYPE html>
