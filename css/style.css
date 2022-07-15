@@ -6,11 +6,12 @@ body{
 }
 .Top1{
     width: 100%;
-    background-color: #8700e1;
+    background-color: #7600c4;
     align-items: center;
     height: 253px;
     margin: 0px;
     box-shadow: 0px 5px 51px 11px rgba(170, 87, 255, 0.41);
+    background: linear-gradient(169deg, #8F00FF 0%, #410073 100%);
 }
 .Top2{
     width: auto;
@@ -26,20 +27,39 @@ body{
 }
 .Links ul li{
     margin-left: 5px;
-    
     list-style: none;
     float: left;
 }
 .Links{
     margin-left: 10px;
 }
-.Center{
+.Images{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.Images ul li{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 50px;
+}
+.Download-1{
+    width: 100%;
+    margin: 0px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.Download-2{
     width: 100%;
     align-items: center;
     margin: 0px;
     display: flex;
     justify-content: center;
-    height: 100%;
+    height: auto;
 }
 #btnDownload{
     border-radius: 20px 20px 20px 20px;
@@ -85,6 +105,15 @@ body{
     height:50px;
     -webkit-transition-duration: 0.1s;
     filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.35));
+}
+#programa1{
+    filter: drop-shadow(0px 0px 5px #000000);
+}
+#programa2{
+    filter: drop-shadow(0px 0px 5px #000000);
+}
+#programa3{
+    filter: drop-shadow(0px 0px 5px #000000);
 }
 #discordIcon:hover, #discordIcon:focus, #discordIcon:active{
     filter: drop-shadow(0px 0px 25px #4D0E80);
