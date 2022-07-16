@@ -10,8 +10,8 @@ body{
     align-items: center;
     height: 253px;
     margin: 0px;
-    box-shadow: 0px 5px 51px 11px rgba(170, 87, 255, 0.41);
-    background: linear-gradient(169deg, #8F00FF 0%, #410073 100%);
+    box-shadow: 0px 5px 51px 11px #aa57ff69;
+    background: linear-gradient(0deg, #8F00FF 0%, #410073 100%)
 }
 .Top2{
     width: auto;
@@ -44,7 +44,8 @@ body{
     display: flex;
     justify-content: center;
     list-style: none;
-    margin: 100px;
+    margin: 75px;
+    margin-bottom: 10px;
 }
 .Download-1{
     width: 100%;
@@ -56,10 +57,32 @@ body{
 .Download-2{
     width: 100%;
     align-items: center;
-    margin: 0px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
-    height: auto;
+}
+.Info{
+    width: 100%;
+    animation: Initialize2;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+#h3Info{
+    font-family: Arial,sans-serif;
+    animation: Initialize2 4s ease 0s 1 normal none;
+    text-align: center;
+    font-size: max(55px, 2vw);
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+#h3Info2{
+    font-family: Arial,sans-serif;
+    animation: Initialize2 4s ease 0s 1 normal none;
+    text-align: center;
+    font-size: max(55px, 2vw);
+    color: #FFFFFF;
 }
 #btnDownload{
     border-radius: 20px 20px 20px 20px;
@@ -82,44 +105,73 @@ body{
 }
 #H1Logo{
     font-family: Arial,sans-serif;
+    text-align: center;
     font-style: inherit;
     font-weight: bold;
-    font-size: 80px;
+    animation: Initialize 2s ease 0s 1 normal none;
+    font-size: max(80px, 5vw);
     color: #FFFFFF;
     text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
 }
 #discordIcon{
+    animation: Initialize 3s ease 0s 1 normal none;
     width:50px;
     height:50px;
     -webkit-transition-duration: 0.1s;
     filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.35));
 }
 #youtubeIcon{
+    animation: Initialize 3s ease 0s 1 normal none;
     width:50px;
     height:50px;
     -webkit-transition-duration: 0.1s;
     filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.35));
 }
 #githubIcon{
+    animation: Initialize 3s ease 0s 1 normal none;
     width:50px;
     height:50px;
     -webkit-transition-duration: 0.1s;
     filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.35));
 }
 #programa1{
+    animation: Initialize2 4s ease 0s 1 normal none;
+    -webkit-transition-duration: 0.3s;
+    width: 60%;
+    height: 60%;
     outline: 10px dotted #85CCFF;
     outline-offset: 10px;
     filter: drop-shadow(0px 0px 5px #0070c0);
 }
 #programa2{
+    animation: Initialize2 4s ease 0s 1 normal none;
+    -webkit-transition-duration: 0.3s;
+    width: 70%;
+    height: 70%;
     outline: 10px dotted #85CCFF;
     outline-offset: 10px;
     filter: drop-shadow(0px 0px 5px #0070c0);
 }
 #programa3{
+    animation: Initialize2 4s ease 0s 1 normal none;
+    -webkit-transition-duration: 0.3s;
+    width: 70%;
+    height: 70%;
     outline: 10px dotted #85CCFF;
     outline-offset: 10px;
     filter: drop-shadow(0px 0px 5px #0070c0);
+}
+#programa1:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#programa2:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#programa3:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 #discordIcon:hover, #discordIcon:focus, #discordIcon:active{
     filter: drop-shadow(0px 0px 25px #4D0E80);
@@ -141,8 +193,31 @@ body{
 }
 #h2BtnDownload{
     font-family: Arial,sans-serif;
+    text-align: center;
     font-style: inherit;
     font-weight: bold;
-    font-size: 50px;
+    font-size: max(40px, 4vw);
     color: #FFFFFF;
+}
+@keyframes Initialize {
+	0% {
+		opacity: 0;
+		transform: scale(0.6);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+@keyframes Initialize2 {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
