@@ -48,6 +48,12 @@ body{
     margin: 75px;
     margin-bottom: 10px;
 }
+.Ads{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
 .Download-1{
     width: 100%;
     margin: 0px;
