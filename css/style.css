@@ -8,7 +8,7 @@ body{
     width: 100%;
     background-color: #7600c4;
     align-items: center;
-    height: 253px;
+    height: min(253px, 50vw);
     margin: 0px;
     box-shadow: 0px 5px 51px 11px #aa57ff69;
     background: linear-gradient(0deg, #8F00FF 0%, #410073 100%)
@@ -39,15 +39,34 @@ body{
     align-items: center;
     display: flex;
     justify-content: center;
-    margin: 0px;
+    align-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
 }
-.Images ul li{
+.programa1{
     align-items: center;
     display: flex;
     justify-content: center;
-    list-style: none;
+    align-content: center;
     margin: 75px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+.programa2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 75px;
+    margin-top: 40px;
+}
+.programa3{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 75px;
+    margin-bottom: 0px;
 }
 .Download-1{
     width: 100%;
@@ -77,7 +96,7 @@ body{
     text-align: center;
     font-size: min(55px, 7vw);
     color: #FFFFFF;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 #h3Info2{
     font-family: Arial,sans-serif;
@@ -85,7 +104,7 @@ body{
     text-align: center;
     font-size: min(55px, 7vw);
     color: #FFFFFF;
-    margin: 0px;
+     margin: 0px;
     margin-left: 0px;
     margin-bottom: 0px;
 }
@@ -120,31 +139,30 @@ body{
 }
 #discordIcon{
     animation: Initialize 3s ease 0s 1 normal none;
-    width:50px;
-    height:50px;
+    width: min(50px, 10vw);
+    height: min(50px, 10vw);
     -webkit-transition-duration: 0.1s;
     filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.35));
 }
 #youtubeIcon{
     animation: Initialize 3s ease 0s 1 normal none;
-    width:50px;
-    height:50px;
+    width: min(50px, 10vw);
+    height: min(50px, 10vw);
     -webkit-transition-duration: 0.1s;
     filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.35));
 }
 #githubIcon{
     animation: Initialize 3s ease 0s 1 normal none;
-    width:50px;
-    height:50px;
+    width: min(50px, 10vw);
+    height: min(50px, 10vw);
     -webkit-transition-duration: 0.1s;
     filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.35));
 }
 #programa1{
     animation: Initialize2 4s ease 0s 1 normal none;
     -webkit-transition-duration: 0.3s;
-    width: 60%;
-    height: 60%;
-    margin-bottom: 50px;
+    width: max(60%, 45vw);
+    height: max(60%, 45vw);
     outline: 10px dotted #85CCFF;
     outline-offset: 10px;
     filter: drop-shadow(0px 0px 5px #0070c0);
@@ -152,8 +170,8 @@ body{
 #programa2{
     animation: Initialize2 4s ease 0s 1 normal none;
     -webkit-transition-duration: 0.3s;
-    width: 70%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
     outline: 10px dotted #85CCFF;
     outline-offset: 10px;
     filter: drop-shadow(0px 0px 5px #0070c0);
@@ -161,8 +179,8 @@ body{
 #programa3{
     animation: Initialize2 4s ease 0s 1 normal none;
     -webkit-transition-duration: 0.3s;
-    width: 70%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
     outline: 10px dotted #85CCFF;
     outline-offset: 10px;
     filter: drop-shadow(0px 0px 5px #0070c0);
