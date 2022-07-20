@@ -35,6 +35,7 @@ body{
     margin-left: 10px;
 }
 .Body{
+    width: 100%;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -169,7 +170,7 @@ body{
     animation: Initialize2 4s ease 0s 1 normal none;
     -webkit-transition-duration: 0.3s;
     width: max(60%, 45vw);
-    height: max(60%, 45vw);
+    height: max(60%, 30vw);
     outline: 10px dotted #85CCFF;
     outline-offset: 10px;
     filter: drop-shadow(0px 0px 5px #0070c0);
