@@ -34,6 +34,13 @@ body{
 .Links{
     margin-left: 10px;
 }
+.Body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
 .Images{
     width: 100%;
     align-items: center;
@@ -223,7 +230,7 @@ body{
     font-size: max(40px, 4vw);
     color: #FFFFFF;
 }
-@keyframes Initialize {
+@keyframes Initialize{
 	0% {
 		opacity: 0;
 		transform: scale(0.6);
@@ -234,7 +241,7 @@ body{
 		transform: scale(1);
 	}
 }
-@keyframes Initialize2 {
+@keyframes Initialize2{
 	0% {
 		opacity: 0;
 		transform: translateY(50px);
