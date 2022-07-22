@@ -76,17 +76,26 @@ body{
     margin: 75px;
     margin-bottom: 0px;
 }
-.Download-1{
+.vídeo{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    width: 100%;
+    height: 100%;
+}
+#vídeo{
+    outline: 5px dashed #2CF7EC;
+    outline-offset: 15px;
+    animation: Initialize2 4s ease 0s 1 normal none;
+    width: min(150%, 50vw);
+    height: min(704px, 30vw);
+}
+.DownloadInfo{
     width: 100%;
     margin: 0px;
     align-items: center;
-    display: flex;
-    justify-content: center;
-}
-.Download-2{
-    width: 100%;
-    align-items: center;
-    margin-bottom: 50px;
     display: flex;
     justify-content: center;
 }
@@ -98,13 +107,86 @@ body{
     justify-content: center;
     margin-bottom: 0px;
 }
+.Download{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-bottom: 50px;
+}
+#txtDownload-1{
+    font-family: Arial,sans-serif;
+    font-size: min(24px, 5vw);
+    color: #fff;
+}
+#txtDownload-2{
+    font-family: Arial,sans-serif;
+    font-size: min(24px, 5vw);
+    color: #fff;
+}
+#btnDownload-1{
+    background: linear-gradient(150deg, #00C3FF 0%, #4100FF 100%);
+    border: 0px;
+    color: rgb(255, 255, 255);
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    text-shadow: 0px 0px 5px #ffffff7b;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    -webkit-transition-duration: 0.3s;
+    box-shadow: 0px 0px 15px 0px #0068B1;
+}
+#btnDownload-1:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#btnDownload-2{
+    background: linear-gradient(150deg, #00C3FF 0%, #4100FF 100%);
+    border: 0px;
+    color: rgb(255, 255, 255);
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    text-shadow: 0px 0px 5px #ffffff7b;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    -webkit-transition-duration: 0.3s;
+    box-shadow: 0px 0px 15px 0px #0068B1;
+}
+#btnDownload-2:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#btnDownload-3{
+    background: linear-gradient(150deg, #00C3FF 0%, #4100FF 100%);
+    border: 0px;
+    color: rgb(255, 255, 255);
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    text-shadow: 0px 0px 5px #ffffff7b;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    -webkit-transition-duration: 0.3s;
+    box-shadow: 0px 0px 15px 0px #0068B1;
+}
+#btnDownload-3:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
 #h3Info{
     font-family: Arial,sans-serif;
     animation: Initialize2 4s ease 0s 1 normal none;
     text-align: center;
     font-size: min(55px, 7vw);
     color: #FFFFFF;
-    margin-bottom: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 #h3Info2{
     font-family: Arial,sans-serif;
@@ -112,28 +194,9 @@ body{
     text-align: center;
     font-size: min(55px, 7vw);
     color: #FFFFFF;
-     margin: 0px;
+    margin: 0px;
     margin-left: 0px;
     margin-bottom: 0px;
-}
-#btnDownload{
-    border-radius: 20px 20px 20px 20px;
-    width: 300px;
-    height: 75px;
-    -webkit-transition-duration: 0.3s;
-    filter: drop-shadow(0px 0px 12px #0062b3);
-    transition-property: transform;
-    font-size: 30px;
-    background-color: #85CCFF;
-    border: 0px;
-    color: #FFFFFF;
-    text-shadow: 0px 0px 3px #FFFFFF;
-}
-#btnDownload:hover, #btnDownload:focus, #btnDownload:active{
-  filter: drop-shadow(0px 0px 25px #0062b3);
-  text-shadow: 0px 0px 5px #FFFFFF;
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
 }
 #H1Logo{
     font-family: Arial,sans-serif;
@@ -171,7 +234,7 @@ body{
     -webkit-transition-duration: 0.3s;
     width: max(60%, 45vw);
     height: max(60%, 30vw);
-    outline: 10px dotted #85CCFF;
+    outline: 10px dotted #2CF7EC;
     outline-offset: 10px;
     filter: drop-shadow(0px 0px 5px #0070c0);
 }
@@ -180,7 +243,7 @@ body{
     -webkit-transition-duration: 0.3s;
     width: 100%;
     height: 100%;
-    outline: 10px dotted #85CCFF;
+    outline: 10px dotted #2CF7EC;
     outline-offset: 10px;
     filter: drop-shadow(0px 0px 5px #0070c0);
 }
@@ -189,7 +252,7 @@ body{
     -webkit-transition-duration: 0.3s;
     width: 100%;
     height: 100%;
-    outline: 10px dotted #85CCFF;
+    outline: 10px dotted #2CF7EC;
     outline-offset: 10px;
     filter: drop-shadow(0px 0px 5px #0070c0);
 }
@@ -223,7 +286,7 @@ body{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
-#h2BtnDownload{
+#txtDownloadInfo{
     font-family: Arial,sans-serif;
     text-align: center;
     font-style: inherit;
