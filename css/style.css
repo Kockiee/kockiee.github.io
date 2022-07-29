@@ -360,7 +360,6 @@ body{
     border-radius: 10px;
     width: 250px;
     height: 100px;
-    -webkit-transition-duration: 0.3s;
     box-shadow: 0px 0px 15px 0px #0068b1;
 }
 @keyframes Initialize{
