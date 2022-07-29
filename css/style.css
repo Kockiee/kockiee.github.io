@@ -47,38 +47,24 @@ body{
     align-items: center;
     display: flex;
     justify-content: center;
-    align-content: center;
     flex-direction: column;
     margin-bottom: 10px;
 }
 .programa1{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
     margin: 75px;
     margin-bottom: 40px;
     margin-top: 50px;
 }
 .programa2{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
     margin: 75px;
     margin-top: 40px;
 }
 .programa3{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
     margin: 75px;
     margin-bottom: 0px;
 }
 .vídeo{
     display: flex;
-    align-content: center;
     justify-content: center;
     align-items: center;
     margin: 50px;
@@ -88,16 +74,11 @@ body{
 #vídeo{
     outline: 5px dashed #2CF7EC;
     outline-offset: 15px;
-    animation: Initialize2 4s ease 0s 1 normal none;
     width: min(150%, 50vw);
     height: min(704px, 30vw);
 }
 .DownloadInfo{
-    width: 100%;
     margin: 0px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
 }
 .Info{
     width: 100%;
@@ -110,12 +91,7 @@ body{
 .Download{
     display: flex;
     justify-content: center;
-    align-content: space-around;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
     align-items: flex-start;
-    flex-wrap: nowrap;
 }
 #txtDownload-1{
     font-family: Arial,sans-serif;
@@ -132,11 +108,11 @@ body{
     border: 0px;
     color: rgb(255, 255, 255);
     font-family: arial, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     text-shadow: 0px 0px 5px #ffffff7b;
     border-radius: 10px;
-    width: 200px;
-    height: 75px;
+    width: 175px;
+    height: 50px;
     -webkit-transition-duration: 0.3s;
     box-shadow: 0px 0px 15px 0px #0068B1;
 }
@@ -149,11 +125,11 @@ body{
     border: 0px;
     color: rgb(255, 255, 255);
     font-family: arial, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     text-shadow: 0px 0px 5px #ffffff7b;
     border-radius: 10px;
-    width: 200px;
-    height: 75px;
+    width: 175px;
+    height: 50px;
     -webkit-transition-duration: 0.3s;
     box-shadow: 0px 0px 15px 0px #0068B1;
 }
@@ -166,11 +142,11 @@ body{
     border: 0px;
     color: rgb(255, 255, 255);
     font-family: arial, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     text-shadow: 0px 0px 5px #ffffff7b;
     border-radius: 10px;
-    width: 200px;
-    height: 75px;
+    width: 175px;
+    height: 50px;
     -webkit-transition-duration: 0.3s;
     box-shadow: 0px 0px 15px 0px #0068B1;
 }
@@ -313,20 +289,26 @@ body{
     transform: scale(1.1);
 }
 #discordIcon:hover, #discordIcon:focus, #discordIcon:active{
-    filter: drop-shadow(0px 0px 25px #4D0E80);
-    text-shadow: 0px 0px 5px #FFFFFF;
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 #youtubeIcon:hover, #youtubeIcon:focus, #youtubeIcon:active{
-    filter: drop-shadow(0px 0px 25px #4D0E80);
-    text-shadow: 0px 0px 5px #FFFFFF;
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 #githubIcon:hover, #githubIcon:focus, #githubIcon:active{
-    filter: drop-shadow(0px 0px 25px #4D0E80);
-    text-shadow: 0px 0px 5px #FFFFFF;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#discordIcon2:hover, #discordIcon:focus, #discordIcon:active{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#youtubeIcon2:hover, #youtubeIcon:focus, #youtubeIcon:active{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#githubIcon2:hover, #githubIcon:focus, #githubIcon:active{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
@@ -354,6 +336,7 @@ body{
     background: linear-gradient(150deg, #00C3FF 0%, #4100FF 100%);
     border: 0px;
     color: rgb(255, 255, 255);
+    -webkit-transition-duration: 0.3s;
     font-family: arial, sans-serif;
     font-size: 24px;
     text-shadow: 0px 0px 5px #ffffff7b;
@@ -361,6 +344,10 @@ body{
     width: 250px;
     height: 100px;
     box-shadow: 0px 0px 15px 0px #0068b1;
+}
+#btnDownload:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 @keyframes Initialize{
 	0% {
