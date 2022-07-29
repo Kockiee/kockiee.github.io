@@ -8,13 +8,13 @@ body{
     width: 100%;
     background-color: #7600c4;
     align-items: center;
-    height: min(253px, 50vw);
+    height: 100%;
     margin: 0px;
     box-shadow: 0px 5px 51px 11px #aa57ff69;
     background: linear-gradient(0deg, #8F00FF 0%, #410073 100%)
 }
 .Top2{
-    width: auto;
+    width: 100%;
     margin: 0px;
     align-items: center;
     display: flex;
@@ -114,18 +114,17 @@ body{
     flex-direction: row;
     width: 100%;
     height: 100%;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: nowrap;
-    margin-bottom: 50px;
 }
 #txtDownload-1{
     font-family: Arial,sans-serif;
-    font-size: min(24px, 5vw);
+    font-size: min(34px, 5vw);
     color: #fff;
 }
 #txtDownload-2{
     font-family: Arial,sans-serif;
-    font-size: min(24px, 5vw);
+    font-size: min(34px, 5vw);
     color: #fff;
 }
 #btnDownload-1{
@@ -133,11 +132,11 @@ body{
     border: 0px;
     color: rgb(255, 255, 255);
     font-family: arial, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     text-shadow: 0px 0px 5px #ffffff7b;
     border-radius: 10px;
-    width: 150px;
-    height: 50px;
+    width: 200px;
+    height: 75px;
     -webkit-transition-duration: 0.3s;
     box-shadow: 0px 0px 15px 0px #0068B1;
 }
@@ -150,11 +149,11 @@ body{
     border: 0px;
     color: rgb(255, 255, 255);
     font-family: arial, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     text-shadow: 0px 0px 5px #ffffff7b;
     border-radius: 10px;
-    width: 150px;
-    height: 50px;
+    width: 200px;
+    height: 75px;
     -webkit-transition-duration: 0.3s;
     box-shadow: 0px 0px 15px 0px #0068B1;
 }
@@ -167,11 +166,11 @@ body{
     border: 0px;
     color: rgb(255, 255, 255);
     font-family: arial, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     text-shadow: 0px 0px 5px #ffffff7b;
     border-radius: 10px;
-    width: 150px;
-    height: 50px;
+    width: 200px;
+    height: 75px;
     -webkit-transition-duration: 0.3s;
     box-shadow: 0px 0px 15px 0px #0068B1;
 }
@@ -228,6 +227,15 @@ body{
     color: #FFFFFF;
     text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
 }
+#H1Logo2{
+    font-family: Arial,sans-serif;
+    text-align: center;
+    font-style: inherit;
+    font-weight: bold;
+    font-size: min(80px, 15vw);
+    color: #FFFFFF;
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
 #discordIcon{
     animation: Initialize 3s ease 0s 1 normal none;
     width: min(50px, 10vw);
@@ -247,6 +255,21 @@ body{
     width: min(50px, 10vw);
     height: min(50px, 10vw);
     -webkit-transition-duration: 0.1s;
+    filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.35));
+}
+#discordIcon2{
+    width: min(50px, 10vw);
+    height: min(50px, 10vw);
+    filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.35));
+}
+#youtubeIcon2{
+    width: min(50px, 10vw);
+    height: min(50px, 10vw);
+    filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.35));
+}
+#githubIcon2{
+    width: min(50px, 10vw);
+    height: min(50px, 10vw);
     filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.35));
 }
 #programa1{
@@ -314,6 +337,31 @@ body{
     font-weight: bold;
     font-size: max(40px, 4vw);
     color: #FFFFFF;
+}
+.Blabel{
+    margin: 50px;
+}
+#backlabel{
+    color: #ffffff;
+    font-family: Arial,sans-serif;
+    font-size: 20px;
+    text-decoration: underline solid;
+}
+#backlabel:hover{
+    color: #828282;
+}
+#btnDownload{
+    background: linear-gradient(150deg, #00C3FF 0%, #4100FF 100%);
+    border: 0px;
+    color: rgb(255, 255, 255);
+    font-family: arial, sans-serif;
+    font-size: 24px;
+    text-shadow: 0px 0px 5px #ffffff7b;
+    border-radius: 10px;
+    width: 250px;
+    height: 100px;
+    -webkit-transition-duration: 0.3s;
+    box-shadow: 0px 0px 15px 0px #0068b1;
 }
 @keyframes Initialize{
 	0% {
