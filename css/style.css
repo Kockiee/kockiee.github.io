@@ -1,17 +1,24 @@
-body{
+Body{
     width: 100%;
     height: 100%;
     margin: 0 auto;
     background-color: #332b37;
 }
 .Top1{
+    display: flex;
     width: 100%;
     background-color: #7600c4;
     align-items: center;
+    flex-direction: column;
     height: 100%;
     margin: 0px;
     box-shadow: 0px 5px 51px 11px #aa57ff69;
     background: linear-gradient(0deg, #8F00FF 0%, #410073 100%)
+}
+#h3Doações{
+    font-size: medium;
+    font-family: Arial,sans-serif;
+    color:#ffffff;
 }
 .Top2{
     width: 100%;
@@ -93,17 +100,12 @@ body{
     justify-content: center;
     align-items: flex-start;
 }
-#txtDownload-1{
+.txtDownload{
     font-family: Arial,sans-serif;
     font-size: min(34px, 5vw);
     color: #fff;
 }
-#txtDownload-2{
-    font-family: Arial,sans-serif;
-    font-size: min(34px, 5vw);
-    color: #fff;
-}
-#btnDownload-1{
+.btnDownload{
     background: linear-gradient(150deg, #00C3FF 0%, #4100FF 100%);
     border: 0px;
     color: rgb(255, 255, 255);
@@ -120,60 +122,15 @@ body{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
-#btnDownload-2{
-    background: linear-gradient(150deg, #00C3FF 0%, #4100FF 100%);
-    border: 0px;
-    color: rgb(255, 255, 255);
-    font-family: arial, sans-serif;
-    font-size: 16px;
-    text-shadow: 0px 0px 5px #ffffff7b;
-    border-radius: 10px;
-    width: 175px;
-    height: 50px;
-    -webkit-transition-duration: 0.3s;
-    box-shadow: 0px 0px 15px 0px #0068B1;
-}
 #btnDownload-2:hover{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-}
-#btnDownload-3{
-    background: linear-gradient(150deg, #00C3FF 0%, #4100FF 100%);
-    border: 0px;
-    color: rgb(255, 255, 255);
-    font-family: arial, sans-serif;
-    font-size: 16px;
-    text-shadow: 0px 0px 5px #ffffff7b;
-    border-radius: 10px;
-    width: 175px;
-    height: 50px;
-    -webkit-transition-duration: 0.3s;
-    box-shadow: 0px 0px 15px 0px #0068B1;
 }
 #btnDownload-3:hover{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
-#h3Info{
-    font-family: Arial,sans-serif;
-    animation: Initialize2 4s ease 0s 1 normal none;
-    text-align: center;
-    font-size: min(55px, 7vw);
-    color: #FFFFFF;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-#h3Info2{
-    font-family: Arial,sans-serif;
-    animation: Initialize2 4s ease 0s 1 normal none;
-    text-align: center;
-    font-size: min(55px, 7vw);
-    color: #FFFFFF;
-    margin: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-}
-#h3Info3{
+.h3Info{
     font-family: Arial,sans-serif;
     animation: Initialize2 4s ease 0s 1 normal none;
     text-align: center;
@@ -212,38 +169,14 @@ body{
     color: #FFFFFF;
     text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
 }
-#discordIcon{
+.linkIcons{
     animation: Initialize 3s ease 0s 1 normal none;
     width: min(50px, 10vw);
     height: min(50px, 10vw);
     -webkit-transition-duration: 0.1s;
     filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.35));
 }
-#youtubeIcon{
-    animation: Initialize 3s ease 0s 1 normal none;
-    width: min(50px, 10vw);
-    height: min(50px, 10vw);
-    -webkit-transition-duration: 0.1s;
-    filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.35));
-}
-#githubIcon{
-    animation: Initialize 3s ease 0s 1 normal none;
-    width: min(50px, 10vw);
-    height: min(50px, 10vw);
-    -webkit-transition-duration: 0.1s;
-    filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.35));
-}
-#discordIcon2{
-    width: min(50px, 10vw);
-    height: min(50px, 10vw);
-    filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.35));
-}
-#youtubeIcon2{
-    width: min(50px, 10vw);
-    height: min(50px, 10vw);
-    filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.35));
-}
-#githubIcon2{
+.linkIcons1{
     width: min(50px, 10vw);
     height: min(50px, 10vw);
     filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.35));
