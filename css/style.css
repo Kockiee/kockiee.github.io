@@ -1,8 +1,21 @@
-Body{
+body{
     width: 100%;
     height: 100%;
     margin: 0 auto;
     background-color: #332b37;
+}
+.horizontalLines{
+    animation: Initialize2 2s ease 0s 1 normal none;
+    border: 4px solid rgb(230, 210, 248);
+    border-radius: 5px;
+    width: min(800px, 45vw);
+}
+.verticalLines{
+    border: 4px solid rgb(230, 210, 248);
+    border-radius: 5px;
+    height: 400px;
+    margin-left: 50px;
+    margin-right: 30px;
 }
 .Top1{
     display: flex;
@@ -13,12 +26,13 @@ Body{
     height: 100%;
     margin: 0px;
     box-shadow: 0px 5px 51px 11px #aa57ff69;
-    background: linear-gradient(0deg, #8F00FF 0%, #410073 100%)
+    background: linear-gradient(0deg, #8F00FF 0%, #410073 100%);
 }
 #h3Doações{
     font-size: medium;
     font-family: Arial,sans-serif;
     color:#ffffff;
+    text-align: center;
 }
 .Top2{
     width: 100%;
@@ -65,10 +79,15 @@ Body{
 .programa2{
     margin: 75px;
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
 }
 .programa3{
     margin: 75px;
     margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .vídeo{
     display: flex;
@@ -117,16 +136,9 @@ Body{
     height: 50px;
     -webkit-transition-duration: 0.3s;
     box-shadow: 0px 0px 15px 0px #0068B1;
+    cursor: pointer;
 }
-#btnDownload-1:hover{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-#btnDownload-2:hover{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-#btnDownload-3:hover{
+.btnDownload:hover{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
@@ -184,8 +196,8 @@ Body{
 #programa1{
     animation: Initialize2 4s ease 0s 1 normal none;
     -webkit-transition-duration: 0.3s;
-    width: max(60%, 45vw);
-    height: max(60%, 30vw);
+    width: min(100%, 50vw);
+    height: min(100%, 50vw);
     outline: 10px dotted #2CF7EC;
     outline-offset: 10px;
     filter: drop-shadow(0px 0px 5px #0070c0);
@@ -193,8 +205,8 @@ Body{
 #programa2{
     animation: Initialize2 4s ease 0s 1 normal none;
     -webkit-transition-duration: 0.3s;
-    width: 100%;
-    height: 100%;
+    width: min(95%, 45vw);
+    height: min(95%, 45vw);
     outline: 10px dotted #2CF7EC;
     outline-offset: 10px;
     filter: drop-shadow(0px 0px 5px #0070c0);
@@ -202,12 +214,18 @@ Body{
 #programa3{
     animation: Initialize2 4s ease 0s 1 normal none;
     -webkit-transition-duration: 0.3s;
-    width: 100%;
-    height: 100%;
+    width: min(105%, 50vw);
+    height: min(105%, 50vw);
     outline: 10px dotted #2CF7EC;
     outline-offset: 10px;
     filter: drop-shadow(0px 0px 5px #0070c0);
     margin-bottom: 40px;
+}
+#csharpLogo{
+    animation: Initialize2 4s ease 0s 1 normal none;
+    -webkit-transition-duration: 0.3s;
+    width: min(105%, 50vw);
+    height: min(105%, 50vw);
 }
 #programa1:hover{
     -webkit-transform: scale(1.1);
@@ -218,6 +236,10 @@ Body{
     transform: scale(1.1);
 }
 #programa3:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#csharpLogo:hover{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
@@ -277,6 +299,7 @@ Body{
     width: 250px;
     height: 100px;
     box-shadow: 0px 0px 15px 0px #0068b1;
+    cursor: pointer;
 }
 #btnDownload:hover{
     -webkit-transform: scale(1.1);
