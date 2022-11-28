@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script type="text/javascript" src="js/main.js"></script>
 </head>
-<body>
+<body onload="onload()">
     <Header class="Top1">
         <Header class="Top2"></div>
             <div class="Logo">
@@ -165,5 +165,19 @@
             </script>
         </div>
     </div>
+    <script>
+        window.onload = function() {
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
+            {
+                var adsDivs = document.getElementsByClassName('Ads');
+                var vLines = document.getElementsByClassName('verticalLines');
+                var pgmDiv = document.getElementsByClassName('programa3');
+
+                window.document.removeChild(adsDivs);
+                vLines.style.transform = "rotate(90deg)";
+                pgmDiv.style.transform = "flex-direction: column";
+            }
+        }   
+    </script>
 </body>
 </html>

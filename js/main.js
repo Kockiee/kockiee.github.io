@@ -10,8 +10,3 @@ function download3(){
 function opendownloadpage(){
     window.location.href = "templates/download.html";
 }
-if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/Android/i))
-{
-    adsDivs = document.getElementsByClassName('Ads');
-    adsDivs.remove();
-}
