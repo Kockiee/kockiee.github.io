@@ -1,7 +1,7 @@
 body{
     width: 100%;
     height: 100%;
-    margin: 0 auto;
+    margin: 0;
     background-color: #332b37;
 }
 .Ads{
@@ -10,7 +10,8 @@ body{
     width: 170px;
     height: 3010px;
     padding-top: 30px;
-    padding-left: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .Ads-Horizontal{
     display: flex;
@@ -24,7 +25,7 @@ body{
 .verticalLines{
     border: 4px solid rgb(230, 210, 248);
     border-radius: 5px;
-    height: 400px;
+    height: min(400px, 35vw);
     margin-left: 50px;
     margin-right: 30px;
 }
@@ -68,6 +69,7 @@ body{
 }
 .Body{
     width: 100%;
+    height: 100%;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -110,24 +112,25 @@ body{
 }
 .programa3{
     margin: 75px;
-    margin-bottom: 0px;
+    margin-bottom: 75px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    width: min(100%, 45vw);
+    height: min(100%, 35vw);
 }
 .vídeo{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 50px;
-    width: 100%;
-    height: 100%;
+    width: (100%, 50vw);
+    height: (100%, 30vw);
 }
 #vídeo{
     outline: 5px dashed #2CF7EC;
     outline-offset: 15px;
     width: min(150%, 50vw);
-    height: min(704px, 30vw);
+    height: min(150%, 30vw);
 }
 .DownloadInfo{
     margin: 0px;
@@ -241,7 +244,7 @@ body{
     animation: Initialize2 4s ease 0s 1 normal none;
     -webkit-transition-duration: 0.3s;
     width: min(100%, 45vw);
-    height: min(100%, 45vw);
+    height: min(100%, 35vw);
     outline: 10px dotted #2CF7EC;
     outline-offset: 10px;
     filter: drop-shadow(0px 0px 5px #0070c0);
@@ -250,8 +253,8 @@ body{
 #csharpLogo{
     animation: Initialize2 4s ease 0s 1 normal none;
     -webkit-transition-duration: 0.3s;
-    width: min(105%, 50vw);
-    height: min(105%, 50vw);
+    width: min(100%, 45vw);
+    height: min(100%, 35vw);
 }
 #programa1:hover{
     -webkit-transform: scale(1.1);
