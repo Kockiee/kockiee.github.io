@@ -272,19 +272,11 @@ body{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
-#discordIcon:hover, #discordIcon:focus, #discordIcon:active{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
 #youtubeIcon:hover, #youtubeIcon:focus, #youtubeIcon:active{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 #githubIcon:hover, #githubIcon:focus, #githubIcon:active{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-#discordIcon2:hover, #discordIcon:focus, #discordIcon:active{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
